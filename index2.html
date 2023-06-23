@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="html2" lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cardápio</title>
+</head>
+<body> 
+
+    <section class="slide">
+        <div class="container">
+            <h3>Itens com promoção</h3>
+            <div class="itens">
+                <img src="./img/combo.fastfood.webp" alt="">
+                <img src="./img/humanizado.fastfood.jpg" alt="">
+                <img src="./img/artesanal.frango.webp" alt="">
+                <img src="/img/artesanal.classico.webp" alt="">
+                <img src="./img/artesanal.cheddar.jpg" alt="">
+            
+            </div>
+        </div>
+      </section>
+
+     <div class="cardapio">
+        <h2>Cardápio</h2>
+
+        <div class="itens-cardapio">
+          <img src="./img/artesanal.frango.webp" alt="">
+
+              <div class="info">
+                 <h3>Artesanal de Frango</h3>
+                  <h4>Pão e Maionese da Casa, Hambúrguer artesanal de Frango prensado e queijo cheddar derretido <br> R$32,00 </h4>
+                  <label for="modalExemplo" class="abrirModal"> Pedir Aqui </label>
+                 
+                  <input type="checkbox" id="modalExemplo" class="checkboxModal">
+
+                 <div class="modal">
+                      <label for="modalExemplo" class="fecharModal"> X</label>
+
+                    <div class="modal-content">
+                        <img src="./img/artesanal.frango.webp" alt="">
+                        <h2 class="modal-title"> Artesanal de Frango </h2>
+                        <p class="paragrafo">Pão e Maionese da Casa, Hambúrguer artesanal de Frango prensado e queijo cheddar derretido </p>
+
+                     <div class="selecionar">
+                      <input name="frango" value="m" type="radio"> Ao Ponto
+                      <input name="frango" value="m" type="radio"> Mal Passado
+                      <input name="frango" value="m" type="radio"> Bem Passado
+                     </div>
+                        <a href="#" class="modal-link"> Adicionar </a>
+                    </div>
+                 </div>
+                </div>
+        </div>
+      </section>
+      <script src="./script.js"></script>
+</body>
+</html>
